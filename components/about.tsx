@@ -20,11 +20,11 @@ export function About() {
 
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground">
-                Hi, I’m Ravi. I love building things that move, think, and interact with the world—fast. My background is in Electrical and Computer Engineering with a focus on robotics, and I enjoy working across hardware, software, and machine learning to bring projects from sketches to working prototypes.
+                Hi, I&apos;m Ravi. I love building things that move, think, and interact with the world—fast. My background is in Electrical and Computer Engineering with a focus on robotics, and I enjoy working across hardware, software, and machine learning to bring projects from sketches to working prototypes.
               </p>
 
               <p className="text-lg text-muted-foreground">
-                When I’m not coding, you’ll find me exploring new technologies, contributing to open-source projects, or enjoying the outdoors. I’m passionate about continuous learning and love staying up-to-date with the latest in tech and robotics.
+                When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open-source projects, or enjoying the outdoors. I’m passionate about continuous learning and love staying up-to-date with the latest in tech and robotics.
               </p>
 
               <div className="grid grid-cols-2 gap-4">
