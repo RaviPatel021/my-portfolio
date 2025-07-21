@@ -11,7 +11,7 @@ export function About() {
             <div>
               <div className="w-full h-96 bg-muted rounded-lg flex items-center justify-center">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/profile.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover rounded-lg"
                 />

@@ -12,8 +12,8 @@ export function Projects() {
         "An autonomous air hockey robot using computer vision and reinforcement learning for real-time gameplay.",
       image: "/placeholder.svg?height=200&width=400",
       technologies: [],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      // liveUrl: "https://example.com",
+      // githubUrl: "https://github.com",
     },
     {
       title: "Jigsaw Puzzle Solver",
@@ -21,48 +21,48 @@ export function Projects() {
         "A computer vision system to autonomously solve jigsaw puzzles by detecting, classifying, and assembling pieces.",
       image: "/placeholder.svg?height=200&width=400",
       technologies: [],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      // liveUrl: "https://example.com",
+      // githubUrl: "https://github.com",
     },
     {
       title: "Autonomous Aerial Maze Solver",
       description: "A drone capable of autonomously navigating and solving mazes using onboard sensing and path planning.",
       image: "/placeholder.svg?height=200&width=400",
       technologies: [],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      // liveUrl: "https://example.com",
+      // githubUrl: "https://github.com",
     },
     {
       title: "Rock Paper Scissors ML Predictor",
       description: "A machine learning model to predict human moves in rock-paper-scissors for real-time gameplay against a computer.",
       image: "/placeholder.svg?height=200&width=400",
       technologies: [],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      // liveUrl: "https://example.com",
+      // githubUrl: "https://github.com",
     },
     {
       title: "Ghostbusters Gun",
       description: "An interactive game where players locate and 'shoot' targets based on directional sound cues from stereo headset.",
       image: "/placeholder.svg?height=200&width=400",
       technologies: [],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      // liveUrl: "https://example.com",
+      // githubUrl: "https://github.com",
     },
     {
       title: "Doodle Jump Game",
       description: "The classic Doodle Jump game on TM4C microcontroller using an LCD, physical buttons, and custom embedded logic for gameplay.",
       image: "/placeholder.svg?height=200&width=400",
       technologies: [],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      // liveUrl: "https://example.com",
+      // githubUrl: "https://github.com",
     },
     {
       title: "Fake Review Detector",
       description: "A machine learning tool to detect fake product reviews by analyzing linguistic patterns and metadata.",
       image: "/placeholder.svg?height=200&width=400",
       technologies: [],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      // liveUrl: "https://example.com",
+      // githubUrl: "https://github.com",
     },
             
   ]
@@ -96,7 +96,7 @@ export function Projects() {
                     ))}
                   </div>
                   <div className="flex gap-2">
-                    <Button size="sm" asChild>
+                    {/* <Button size="sm" asChild>
                       <Link href={project.liveUrl}>
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Live Demo
@@ -107,7 +107,7 @@ export function Projects() {
                         <Github className="w-4 h-4 mr-2" />
                         Code
                       </Link>
-                    </Button>
+                    </Button> */}
                   </div>
                 </CardContent>
               </Card>
